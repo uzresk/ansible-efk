@@ -1,0 +1,11 @@
+---
+- name: download elasticsearch rpm
+  get_url: >
+    url={{ elasticsearch_configs.dl_url }}
+    dest={{ elasticsearch_configs.rpm_path }}
+
+- name: install elasticsearch from rpm
+  yum: name={{ elasticsearch_configs.rpm_path }}
+
+- name: elasticsearch service start and enabled
+  service: name=elasticsearch state=started enabled=yes

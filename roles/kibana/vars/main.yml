@@ -1,0 +1,5 @@
+kibana_configs:
+  dl_url: https://download.elastic.co/kibana/kibana/kibana-4.1.1-linux-x64.tar.gz
+  archive_path: /usr/local/src/kibana-4.1.1-linux-x64.tar.gz
+  install_path: /opt
+  install_name: kibana-4.1.1-linux-x64

@@ -1,0 +1,6 @@
+---
+- name: install libcurl-devel
+  yum: name={{item}}
+  with_items:
+    - gcc
+    - libcurl
