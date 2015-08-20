@@ -3,4 +3,5 @@ td_agent:
   plugins:
     - { name: 'fluent-plugin-elasticsearch' }
     - { name: 'fluent-plugin-s3' }
-
+  port: 24224
+  bindaddress: 0.0.0.0
