@@ -23,10 +23,10 @@ case "$1" in
     ;;
     "stop" )
         echo "Stopping Kibana..."
-        kill `cat ${PID}`
+        kill `cat ${PID_FILE}`
         RETVAL=$?
         if test $RETVAL -eq 0 ; then
-           rm -f ${PID}
+           rm -f ${PID_FILE}
         fi
     ;;
     *)
