@@ -6,7 +6,7 @@
 - name: wget java
   command: >
     wget -O {{ jdk.rpm_path }} --no-check-certificate --no-cookies
-    --header "Cookie: oraclelicense=accept-securebackup-cookie" "{{ jdk.dl_url }}"
+    --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "{{ jdk.dl_url }}"
   when: java_exists.stat.md5 is not defined
 
 - name: install java from local rpm

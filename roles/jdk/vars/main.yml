@@ -1,4 +1,4 @@
 ---
 jdk:
-  dl_url: http://download.oracle.com/otn-pub/java/jdk/8u45-b14/jdk-8u45-linux-x64.rpm
-  rpm_path: "/usr/local/src/jdk-8u45-linux-x64.rpm"
+  dl_url: http://download.oracle.com/otn-pub/java/jdk/8u121-b13/e9e7ea248e2c4826b92b3f075a80e441/jdk-8u121-linux-x64.rpm
+  rpm_path: "/usr/local/src/jdk-8u121-linux-x64.rpm"
